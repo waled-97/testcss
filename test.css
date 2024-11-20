@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    background: linear-gradient(to right, #ff0000, #ff69b4); 
+    padding: 15px 0px 10px 15px;
+
+
+}
+body{
+    
+    background-image: url(photos/logo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 99%;
+    background-attachment: fixed;
+    
+    
+}
+article{
+    margin: 2%;
+
+}
+article h3 {
+    padding: 15px 0px 10px 15px;
+    
+}
+article h3:hover{
+    background-color: #ff0000;
+    color: white;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+article img:hover{
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+    
+
+}
